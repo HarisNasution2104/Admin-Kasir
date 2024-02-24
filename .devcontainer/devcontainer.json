@@ -1,0 +1,13 @@
+{
+  "name": "PHP with Nginx",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "php.validate.enable": false,
+    "php.validate.executablePath": "/usr/local/bin/php"
+  },
+  "extensions": [
+    "felixfbecker.php-intellisense",
+    "editorconfig.editorconfig",
+    "bmewburn.vscode-intelephense-client"
+  ]
+}
